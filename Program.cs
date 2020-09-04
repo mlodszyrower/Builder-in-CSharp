@@ -11,9 +11,9 @@ namespace PatternDesign
             Car.Builder builder = new Car.Builder();
                 builder.SetBagageCapacity(2)
                 .AddWheel(5)
-                .SetColor("masno");
+                .SetColor("dark");
             if(true) 
-                builder.SetColor("nie jest masno");
+                builder.SetColor("green");
             car = builder.Build();
             Car car1 = new Car.Builder()
                 .SetBagageCapacity(2)
